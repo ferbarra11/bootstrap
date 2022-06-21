@@ -428,7 +428,7 @@ p {
     align-items: center;
     justify-content: center;
     /* box-sizing:content-box; No necesario, En la parte de "Normalizacion" ya se aplicó */
-    margin:auto;  No necesario, En la parte de "Normalizacion" ya se aplicó
+    /* margin:auto;  No necesario, En la parte de "Normalizacion" ya se aplicó */
 }
 
 .container-fluid .contenedor {
