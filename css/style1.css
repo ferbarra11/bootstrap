@@ -16,10 +16,12 @@ html {
 }
 
 body {
-    background-image:url(../img/blackbricks.jpg);
+    /* background-image:url(../img/blackbricks.jpg); */
     background-size:contain;
     background-color: #fff;
     font-family:'Catamaran', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 ul {
@@ -38,10 +40,24 @@ img {
 
 
 li a:hover{
-    text-decoration:underline;
+    text-decoration: pink;
 }
 
-/* HEADER */
+.navbar-expand-lg {
+     background-color: rgb(116, 223, 203);
+}
+
+
+div .container-fluid {
+    background-color: rgb(219, 205, 187);
+}
+
+/* .bg-warning{  */
+    /* background-color: aqua; */
+/* } */
+/*  */
+/*  */
+
 
 header{
     display:flex;
@@ -123,6 +139,19 @@ header nav .menu {
     grid-column: 8 / 12;
 }
 
+.container-fluid .tarjeta {
+    margin-top: 8rem;
+    padding: 0px;
+}
+.card {
+    margin-top: .5rem;
+    margin-bottom: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1.8rem;
+}
+
+
+
 /* NOSOTROS */
 .container2 {
     max-width: 1200px;
@@ -183,7 +212,31 @@ header nav .menu {
     text-align:center;
 }
 
+.display-3 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3rem;
+}
 
+.sucursal__card1 {
+    padding-bottom: 2.1rem;
+}
+
+.sucursal__card2 {
+    padding-bottom: 2.1rem;
+}
+
+.sucursal__card3 {
+    padding-bottom: 2.1rem;
+}
+
+.lead {
+    padding-bottom: 0.2rem;
+    margin: 0px;
+}
+
+img .img-fluid {
+    max-height: 200px;
+}
 
 
 
@@ -384,10 +437,34 @@ footer picture a img {
 }
 
 
+/* Format links */
+
+/* unvisited  */
+
+a:link {
+    color:#0000008C;
+  }
+  
+  /* visited  */
+  a:visited {
+    color: rgb(255, 68, 0);
+  }
+  
+  /* hover  */
+  a:hover {
+    color: rgb(193, 151, 172);
+  }
+  
+  /* active  */
+  a:active {
+    color: rgb(0, 132, 18);
+  }
+
+
 /* ANIMATION */
 
-header {
-    animation: pulse 9s infinite;
+.navbar-expand-lg {
+    animation: pulse 20s infinite;
   }
 
   @keyframes pulse {
